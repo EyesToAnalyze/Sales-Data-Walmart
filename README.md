@@ -26,14 +26,19 @@ The dataset contains 17 columns and 1000 rows:
 | gross_income            | Gross Income                            | DECIMAL(10, 2) |
 | rating                  | Rating                                  | FLOAT(2, 1)    |
 
-Analysis Segments Conducted
+Analysis Conducted
 1) Product Analysis
+
    This was conducted to understand which product lines are performing best and which need to improve.
+   
 2) Sales Analysis
+
    The was conducted to answer questions about sales trends which can help measure the effectiveness of each sales startegy and what modifications are     
-    needed to increase sales. 
+    needed to increase sales.
+   
 3) Customer Analysis
-4) This analysis uncovers the different customer segments, purchase trends and profitability of each customer segment.
+
+   This analysis uncovers the different customer segments, purchase trends and profitability of each customer segment.
 
 Approach Used
 1) Data Wrangling:
