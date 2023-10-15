@@ -37,11 +37,14 @@ Analysis Segments Conducted
 
 Approach Used
 1) Data Wrangling:
+   
    -Build a database
+   
    -Create table and insert the data
+   
    -Detect NULL values and use data replacement methods to replace missing values. Set NOT Null for each field to filter out null values.
 
-2) Feature Engineering
+3) Feature Engineering
    Generate 3 new columns from existing ones: time_of_day, day_name, and month_name.
 
 4) Exploratory Data Analysis (EDA)
