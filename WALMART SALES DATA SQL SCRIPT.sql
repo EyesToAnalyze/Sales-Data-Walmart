@@ -245,7 +245,7 @@ ORDER BY avg_tax_pct DESC;
 -- Results: Member (15.61%) V.S. Customers (15.10%)
 
 
--- --------------------------------Answering Questions About the Customer-------------------------------------------------------------------------------------
+-- --------------------------------Answering Questions about the Customer-------------------------------------------------------------------------------------
 --  Understand the gender distribution of customers to tailor marketing strategies and product offerings.
 -- Analyze customer types (e.g., retail, wholesale) to differentiate marketing approaches & 
 -- product packaging.
