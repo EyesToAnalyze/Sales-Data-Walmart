@@ -119,12 +119,6 @@ GROUP BY product_line
 ORDER BY qty DESC;
 -- Answer: The product line with the highest sales quatity is Electronics accessories.
 
--- What gender brings in the most gross income?
-SELECT gender, ROUND(SUM(gross_income),0) AS gross_income FROM sales
-GROUP BY gender
-ORDER BY gross_income;
--- Answer: Females generate the greatest gorss income of $7923 compared to males who generate $7356
-
 -- What is the total revenue by month?
 SELECT month_name AS month, SUM(total) AS total_revenue FROM sales
 GROUP BY month_name 
@@ -249,6 +243,12 @@ ORDER BY avg_tax_pct DESC;
 --  Understand the gender distribution of customers to tailor marketing strategies and product offerings.
 -- Analyze customer types (e.g., retail, wholesale) to differentiate marketing approaches & 
 -- product packaging.
+
+-- What gender brings in the most gross income?
+SELECT gender, ROUND(SUM(gross_income),0) AS gross_income FROM sales
+GROUP BY gender
+ORDER BY gross_income;
+-- Answer: Females generate the greatest gorss income of $7923 compared to males who generate $7356
 
 -- How many unique customer types does the data have?
 SELECT DISTINCT customer_type FROM sales;
