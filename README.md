@@ -73,19 +73,19 @@ Approach Used
    5) Which customer type pays the most in VAT (Value Added Tax)?
       
    Customer Questions:
-   1) What gender brings in the most gross income?
-   2) How many unique customer types does the data have?
-   3) How many unique payment methods does the data have?
-   4) What is the most common customer type?
-   5) What is the gender of most customers?
-   6) What is the gender distribution per branch?
-   7) At what time of the day do customers give the best ratings?
-   8) According to the time of the day, which branch gets the best ratings?
-   9) Which day of the week has the best average ratings?
-   10) By each day of the week, how much product is sold?
-   11) Which day of the week has the best average ratings per branch?
+   1)What gender brings in the most gross income?
+   2)How many unique customer types does the data have?
+   3)How many unique payment methods does the data have?
+   4)What is the most common customer type?
+   5)What is the gender of most customers?
+   6)What is the gender distribution per branch?
+   7)At what time of the day do customers give the best ratings?
+   8)According to the time of the day, which branch gets the best ratings?
+   9)Which day of the week has the best average ratings?
+   10)By each day of the week, how much product is sold?
+   11)Which day of the week has the best average ratings per branch?
   
-   Revenue & Profit Calculations
+   Revenue & Profit Calculations:
    COGS = unitsPrice * quantity $
 
    VAT = 5\% * COGS $
