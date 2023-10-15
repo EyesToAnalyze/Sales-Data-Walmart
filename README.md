@@ -55,9 +55,10 @@ Approach Used
 
 3) Exploratory Data Analysis (EDA)
    
-    Answers the listed questions and the purpose of the project:
+   Answers the listed questions and the purpose of the project:
 
    Business Questions To Answer
+   
    Generic Questions:
    1) How many unique cities does the data have?
    2) What city is each branch located?  
