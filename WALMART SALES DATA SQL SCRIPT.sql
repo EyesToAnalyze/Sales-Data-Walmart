@@ -1,4 +1,4 @@
--- -------------------------------Data Wrangling----------------------------------------------------------
+-- -------------------------------Data Wrangling-------------------------------------------------------------------------------------------------------------
 
 -- Step 1: Create a database using the "IF NOT EXISTS" clause to prevent error.
 
@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS sales(
 -- Take a look at the entire table. 
 SELECT * FROM sales;
 
--- -------------------------------------Feature Engineering----------------------------------------------
+-- -------------------------------------Feature Engineering--------------------------------------------------------------------------------------------------
 -- Add the time_of_day column to give insight into sales in the Morning, Afternoon and Evening. 
 SELECT time,
 	(CASE WHEN `time` BETWEEN "00:00:00" AND "12:00:00" THEN "Morning"
@@ -88,9 +88,12 @@ ALTER TABLE sales ADD COLUMN month_name VARCHAR(10);
 -- Update the new column cells. 
 UPDATE sales SET month_name = MONTHNAME(date);
 
--- -------------------------------Exploratory Data Analysis (EDA)----------------------------------------------------
--- -----------------------------------------------------------------------------------------------------------
--- -------------------------------Answering Generic Questions------------------------------------------------------
+
+
+
+-- --------------------------------------------------Exploratory Data Analysis (EDA)---------------------------------------------------------------------------------------------
+-- -----------------------------------------------------------------------------------------------------------------------------------------------------------
+-- -------------------------------Answering Generic Questions-------------------------------------------------------------------------------------------------
 -- How many unique cities does the data have?
 SELECT DISTINCT city FROM sales;
 -- Answer: We have 3 (Yangon Naypyitaw, and Mandalay).
@@ -99,7 +102,7 @@ SELECT DISTINCT city FROM sales;
 SELECT DISTINCT city, branch FROM sales;
 -- Answer: Branch A is in Yangon, B is in Mandalay, and C is in Naypyitaw.
 
--- ----------------------------------Answering Product Questions-------------------------------------------------------
+-- ----------------------------------Answering Product Questions------------------------------------------------------------------------------------------------
 -- How many unique product lines does the data have? 
 SELECT COUNT(DISTINCT product_line) FROM sales;
 -- Answer: There are 6 distinct product lines. 
@@ -203,7 +206,7 @@ ORDER BY avg_rating DESC;
 -- Sports and travel (6.86), Home and lifestyle (6.84)
     
 
--- ----------------------------------Answering Questions about Sales-------------------------------------------
+-- ---------------------------------------Answering Questions about Sales-----------------------------------------------------------------------------------------
 -- By weekday, what is the number of sales made at each time of the day? 
 SELECT time_of_day, COUNT(*) AS total_sales FROM sales
 WHERE day_name = "Monday"
@@ -242,7 +245,7 @@ ORDER BY avg_tax_pct DESC;
 -- Results: Member (15.61%) V.S. Customers (15.10%)
 
 
--- --------------------------------Answering Questions About the Customer-------------------------------------------
+-- --------------------------------Answering Questions About the Customer-------------------------------------------------------------------------------------
 --  Understand the gender distribution of customers to tailor marketing strategies and product offerings.
 -- Analyze customer types (e.g., retail, wholesale) to differentiate marketing approaches & 
 -- product packaging.
