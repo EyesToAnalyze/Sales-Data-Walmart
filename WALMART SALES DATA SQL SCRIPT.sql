@@ -90,7 +90,7 @@ UPDATE sales SET month_name = MONTHNAME(date);
 
 -- -------------------------------Exploratory Data Analysis (EDA)----------------------------------------------------
 -- -----------------------------------------------------------------------------------------------------------
--- -------------------------------Answering Business Questions------------------------------------------------------
+-- -------------------------------Answering Generic Questions------------------------------------------------------
 -- How many unique cities does the data have?
 SELECT DISTINCT city FROM sales;
 -- Answer: We have 3 (Yangon Naypyitaw, and Mandalay).
