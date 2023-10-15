@@ -43,11 +43,11 @@ Analysis Conducted
 Approach Used
 1) Data Wrangling:
    
-   -Build a database
+   - Build a database
    
-   -Create table and insert the data
+   - Create table and insert the data
    
-   -Detect NULL values and use data replacement methods to replace missing values. Set NOT Null for each field to filter out null values.
+   - Detect NULL values and use data replacement methods to replace missing values. Set NOT Null for each field to filter out null values.
 
 2) Feature Engineering
    
@@ -57,12 +57,15 @@ Approach Used
    
    Answers the listed questions and the purpose of the project:
 
-   Business Questions To Answer
+Business Questions To Answer
    
-   Generic Questions:
+Generic Questions:
+
    1) How many unique cities does the data have?
-   2) What city is each branch located?  
-   Product Question:
+   2) What city is each branch located?
+
+Product Question:
+   
    1) How many unique product lines does the data have?
    2) What is the most common payment method?
    3) What product line has the highest quantity of sales?
@@ -76,14 +79,16 @@ Approach Used
    11) What is the most common product line by gender?
    12) What is the average rating for each product line?
 
-   Sales Questions:
+Sales Questions:
+   
    1) By weekday, what is the number of sales made at each time of the day?
    2) What is the total revenue by month?
    3) What customer type brings in the most revenue?
    4) Which city has the largest tax percent/ VAT (Value Added Tax)?
    5) Which customer type pays the most in VAT (Value Added Tax)?
       
-   Customer Questions:
+Customer Questions:
+   
    1) What gender brings in the most gross income?
    2) How many unique customer types does the data have?
    3) How many unique payment methods does the data have?
@@ -97,9 +102,10 @@ Approach Used
    11) Which day of the week has the best average ratings per branch?
   
    Revenue & Profit Calculations:
+   
    COGS = unitsPrice * quantity $
 
-   VAT = 5\% * COGS $
+   VAT = 5% * COGS $
 
    VAT is added to the COGS and this is what is billed to the customer.
 
