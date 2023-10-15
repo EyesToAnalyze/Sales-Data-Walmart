@@ -119,12 +119,6 @@ GROUP BY product_line
 ORDER BY qty DESC;
 -- Answer: The product line with the highest sales quatity is Electronics accessories.
 
--- What is the total revenue by month?
-SELECT month_name AS month, SUM(total) AS total_revenue FROM sales
-GROUP BY month_name 
-ORDER BY total_revenue DESC; 
--- Answer: January (116291.8680), March (108867.1500), February (95727.3765).
-
 -- What month had the largest Cost of Goods Sold (COGS)?
 SELECT month_name AS month, SUM(cogs) as cogs from sales
 GROUP BY month_name
@@ -216,6 +210,12 @@ ORDER BY total_sales DESC;
 --         Saturday- 81, 55, 28
 --         Sunday- 58,52, 22
 --         Evenings experience the most sales and should therefore have more staff during that time.
+
+-- What is the total revenue by month?
+SELECT month_name AS month, SUM(total) AS total_revenue FROM sales
+GROUP BY month_name 
+ORDER BY total_revenue DESC; 
+-- Answer: January (116291.8680), March (108867.1500), February (95727.3765).
 
 -- What customer type brings in the most revenue?
 SELECT customer_type, SUM(total) AS total_revenue FROM sales 
