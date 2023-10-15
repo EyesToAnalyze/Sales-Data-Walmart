@@ -1,9 +1,11 @@
 # Walmart-Sales-Data
 
 Purpose Of The Project  
+
 This Walmart MySQL project is a study of how sales strategies can be improved and optimized.Through data exploration, it aims to understand top performing branches and products, sales trends, and customer behavior. 
 
 About The Data
+
 This dataset contains sales transactions from 3 different branches of Walmart and was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting).
 The dataset contains 17 columns and 1000 rows:
 | Column                  | Description                             | Data Type      |
