@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS sales(
 
 -- Step 4: Upload the data into the sales table. 
 -- Highlight & run the above query to create the database. Refresh chemas & click the table view 
--- for the "sales" table. There is no data inside of it yet so import the data into the database 
+-- for the "sales" table. Import the data into the database 
 -- by clicking "import records fromm external file." Select the destination with the "browse"
 -- button to select the file to import. Under "Select Destination" use the existing sales table 
 -- "salesdatawalmart" and select to "truncate table before import " which delets 
