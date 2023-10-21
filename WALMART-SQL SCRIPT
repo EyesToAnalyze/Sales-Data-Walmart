@@ -9,7 +9,7 @@ CREATE DATABASE IF NOT EXISTS salesDataWalmart;
 -- the session. When one sets a default schema, any SQL statements executed in that session will  
 -- be implicitly performed within that database unless one explicitly specifys a different database.
 -- This action simplifies querying because setting a default schema can simplify one's SQL queries. 
--- That is, instead of having to fully qualify table & object names with the database name each 
+-- That is, instead of having to fully qualify a table & object names with the database name each 
 -- time one references them, one can omit the database name if it belongs to the default schema.
 -- This also helps to prevent accidental changes to other databases. This is because without a 
 -- "default schema," one might accidently make changes to the wrong database.
